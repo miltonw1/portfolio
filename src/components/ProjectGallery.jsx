@@ -17,7 +17,7 @@ function ProjectGallery({ images, title }) {
           key={src}
           src={src}
           alt={`Captura ${i + 1} de ${title}`}
-          className={`absolute inset-0 h-full w-full object-cover transition-opacity duration-700 ${
+          className={`absolute inset-0 h-full w-full object-contain transition-opacity duration-700 ${
             i === index ? 'opacity-100' : 'opacity-0'
           }`}
         />

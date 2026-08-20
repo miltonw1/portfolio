@@ -1,3 +1,5 @@
+import ProjectGallery from './ProjectGallery.jsx'
+
 function ProjectCard({ project }) {
   return (
     <article className="flex flex-col overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/50 md:flex-row">
@@ -22,13 +24,7 @@ function ProjectCard({ project }) {
         </div>
       </div>
 
-      <div className="aspect-square w-full bg-neutral-800 md:w-1/2">
-        <img
-          src={project.image}
-          alt={`Captura de ${project.title}`}
-          className="h-full w-full object-cover"
-        />
-      </div>
+      <ProjectGallery images={project.images} title={project.title} />
     </article>
   )
 }

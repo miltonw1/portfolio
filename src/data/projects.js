@@ -4,21 +4,32 @@ const projects = [
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Auris eget efficitur justo. Sed id metus ut enim tempor faucibus.`,
     tech: ['React', 'Tailwind', 'Vite'],
-    image: '/pexels-pixabay-45201.jpg',
+    images: [
+      '/pexels-pixabay-45201.jpg',
+      '/gratisography-bow-tie-dog-stock-photo-1170x780.jpg',
+      '/Screenshot 2026-08-20 170532.png',
+    ],
   },
   {
     title: 'Proyecto 2',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Auris eget efficitur justo. Sed id metus ut enim tempor faucibus.`,
     tech: ['React', 'Node'],
-    image: '/pexels-pixabay-45201.jpg',
+    images: [
+      '/pexels-pixabay-45201.jpg',
+      '/gratisography-bow-tie-dog-stock-photo-1170x780.jpg',
+    ],
   },
   {
     title: 'Proyecto 3',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Auris eget efficitur justo. Sed id metus ut enim tempor faucibus.`,
     tech: ['JavaScript', 'CSS'],
-    image: '/pexels-pixabay-45201.jpg',
+    images: [
+      '/pexels-pixabay-45201.jpg',
+      '/gratisography-bow-tie-dog-stock-photo-1170x780.jpg',
+      '/Screenshot 2026-08-20 170532.png',
+    ],
   },
 ]
 

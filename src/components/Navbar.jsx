@@ -8,7 +8,7 @@ const links = [
 
 function Navbar() {
   return (
-    <header className="sticky top-0 z-50 grid grid-cols-3 items-center border-b border-neutral-800 bg-[#0a0a0a]/90 px-6 py-4 backdrop-blur">
+    <header className="sticky top-0 z-50 grid grid-cols-3 items-center border-b border-neutral-800 bg-gray-900/90 px-6 py-4 backdrop-blur">
       <Link
         to="/"
         className="font-semibold text-white transition-colors hover:text-emerald-400"

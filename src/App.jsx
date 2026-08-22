@@ -6,7 +6,7 @@ import Contacto from './pages/Contacto.jsx'
 
 function App() {
   return (
-    <div className="flex min-h-screen flex-col bg-[#0a0a0a] text-neutral-200">
+    <div className="flex min-h-screen flex-col bg-gray-800 text-neutral-200">
       <Navbar />
 
       <main className="mx-auto w-full max-w-6xl flex-1 px-6 py-12">

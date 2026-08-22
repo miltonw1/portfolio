@@ -13,6 +13,18 @@ const projects = [
     ],
   },
   {
+    title: 'GymManager',
+    description: `Sistema de gestión para gimnasios: control de socios,
+      planes y membresías, seguimiento de vencimientos y recaudación mensual.`,
+    tech: ['React', 'Tailwind', 'NestJS', 'Prisma'],
+    images: [
+      '/gymhelper-screencaps/Screenshot 2026-08-22 175050.png',
+      '/gymhelper-screencaps/Screenshot 2026-08-22 175107.png',
+      '/gymhelper-screencaps/Screenshot 2026-08-22 175135.png',
+      '/gymhelper-screencaps/Screenshot 2026-08-22 175242.png',
+    ],
+  },
+  {
     title: 'Proyecto 2',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Auris eget efficitur justo. Sed id metus ut enim tempor faucibus.`,

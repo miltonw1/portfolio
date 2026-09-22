@@ -17,6 +17,7 @@ const projects = [
     description: `Sistema de gestión para gimnasios: control de socios,
       planes y membresías, seguimiento de vencimientos y recaudación mensual.`,
     tech: ['React', 'Tailwind', 'NestJS', 'Prisma'],
+    url: 'https://gym-manager.kaitech.com.ar/',
     images: [
       '/gymhelper-screencaps/Screenshot-2026-08-22-175050.png',
       '/gymhelper-screencaps/Screenshot-2026-08-22-175107.png',
@@ -29,6 +30,7 @@ const projects = [
     description: `Sistema de control de stock: gestión de productos,
       inventario, movimientos de entrada y salida, y alertas de stock bajo.`,
     tech: ['React', 'Tailwind', 'NestJS', 'Prisma'],
+    url: 'https://stock.kaitech.com.ar/',
     images: [
       '/stockmanagement-screencaps/Screenshot%202026-09-22%20150920.png',
       '/stockmanagement-screencaps/Screenshot%202026-09-22%20150932.png',

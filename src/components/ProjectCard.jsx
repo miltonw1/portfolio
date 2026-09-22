@@ -21,6 +21,16 @@ function ProjectCard({ project }) {
               ))}
             </div>
           )}
+          {project.url && (
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-emerald-400 transition-colors hover:text-emerald-300 hover:underline"
+            >
+              Ver proyecto →
+            </a>
+          )}
         </div>
       </div>
 

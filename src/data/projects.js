@@ -25,24 +25,15 @@ const projects = [
     ],
   },
   {
-    title: 'Proyecto 2',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Auris eget efficitur justo. Sed id metus ut enim tempor faucibus.`,
-    tech: ['React', 'Node'],
+    title: 'StockManager',
+    description: `Sistema de control de stock: gestión de productos,
+      inventario, movimientos de entrada y salida, y alertas de stock bajo.`,
+    tech: ['React', 'Tailwind', 'NestJS', 'Prisma'],
     images: [
-      '/pexels-pixabay-45201.jpg',
-      '/gratisography-bow-tie-dog-stock-photo-1170x780.jpg',
-    ],
-  },
-  {
-    title: 'Proyecto 3',
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Auris eget efficitur justo. Sed id metus ut enim tempor faucibus.`,
-    tech: ['JavaScript', 'CSS'],
-    images: [
-      '/pexels-pixabay-45201.jpg',
-      '/gratisography-bow-tie-dog-stock-photo-1170x780.jpg',
-      '/Screenshot-2026-08-20-170532.png',
+      '/stockmanagement-screencaps/Screenshot%202026-09-22%20150920.png',
+      '/stockmanagement-screencaps/Screenshot%202026-09-22%20150932.png',
+      '/stockmanagement-screencaps/Screenshot%202026-09-22%20150945.png',
+      '/stockmanagement-screencaps/Screenshot%202026-09-22%20150950.png',
     ],
   },
 ]
